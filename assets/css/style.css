@@ -8,9 +8,9 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-::selection {
-  background-color: rgb(0,128,128);
-  color : white;
+*::selection,* {
+  background-color: rgba(0,128,128,1) !important;
+  color: white;
 }
 
 body {
