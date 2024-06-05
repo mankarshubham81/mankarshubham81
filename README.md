@@ -1,16 +1,16 @@
 # mankarshubham81
-# Hi there, I'm [Your Name] 👋
+# Hi there, I'm Shubham Mankar 👋
 
 I'm a passionate Software Developer with expertise in creating robust and scalable web applications. My focus is on building efficient, high-quality software and continuously learning new technologies to improve my skills.
 
 ## 🚀 About Me
 
-- 🔭 I’m currently working on [Your Current Project/Company]
-- 🌱 I’m currently learning [New Technology/Tool]
-- 👯 I’m looking to collaborate on [Project Type/Area of Interest]
-- 💬 Ask me about [Your Expertise/Skills]
-- 📫 How to reach me: [Your Email/LinkedIn]
-- ⚡ Fun fact: [A Fun Fact About You]
+- 🔭 I’m currently working on various exciting projects
+- 🌱 I’m currently learning advanced concepts in NextJs
+- 👯 I’m looking to collaborate on innovative open-source projects
+- 💬 Ask me about web development, Efficient Learning, and software architecture
+- 📫 How to reach me: [mankarshubham81@gmail.com](mailto:mankarshubham81@gmail.com)
+- ⚡ Fun fact: I love exploring new technologies and learnig new skills(both outdoor and indoor)
 
 ## 🛠 Skills
 
@@ -34,14 +34,15 @@ I'm a passionate Software Developer with expertise in creating robust and scalab
 
 ### Tools and Platforms
 - ![Git](https://img.shields.io/badge/-Git-333?style=flat&logo=git)
-- ![Docker](https://img.shields.io/badge/-Docker-333?style=flat&logo=docker)
-- ![Kubernetes](https://img.shields.io/badge/-Kubernetes-333?style=flat&logo=kubernetes)
 - ![AWS](https://img.shields.io/badge/-AWS-333?style=flat&logo=amazon-aws)
-- ![Azure](https://img.shields.io/badge/-Azure-333?style=flat&logo=microsoft-azure)
+  <!-- This is a comment. It will not be rendered in the Markdown output.  -->
+<!-- ![Docker](https://img.shields.io/badge/-Docker-333?style=flat&logo=docker)
+- ![Kubernetes](https://img.shields.io/badge/-Kubernetes-333?style=flat&logo=kubernetes)
+- ![Azure](https://img.shields.io/badge/-Azure-333?style=flat&logo=microsoft-azure) -->
 
 ## 📈 GitHub Stats
 
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=dark)
+![Shubham's GitHub Stats](https://github-readme-stats.vercel.app/api?username=mankarshubham81&show_icons=true&theme=dark)
 
 ## 🏆 Achievements
 
@@ -50,27 +51,19 @@ I'm a passionate Software Developer with expertise in creating robust and scalab
 
 ## 🔗 Connect with Me
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-333?style=flat&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/yourprofile)
-[![Twitter](https://img.shields.io/badge/-Twitter-333?style=flat&logo=twitter&logoColor=1DA1F2)](https://twitter.com/yourprofile)
-[![Email](https://img.shields.io/badge/-Email-333?style=flat&logo=gmail&logoColor=EA4335)](mailto:your.email@example.com)
-
-## 📝 Latest Blog Posts
-
-<!-- BLOG-POST-LIST:START -->
-- [Post 1](https://yourblog.com/post1)
-- [Post 2](https://yourblog.com/post2)
-- [Post 3](https://yourblog.com/post3)
-<!-- BLOG-POST-LIST:END -->
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-333?style=flat&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/shubham-mankar)
+[![Twitter](https://img.shields.io/badge/-Twitter-333?style=flat&logo=twitter&logoColor=1DA1F2)](https://twitter.com/mankarshubham81)
+[![Email](https://img.shields.io/badge/-Email-333?style=flat&logo=gmail&logoColor=EA4335)](mailto:mankarshubham81@gmail.com)
 
 ## 📂 Noteworthy Projects
 
-- [**Project 1**](https://github.com/yourusername/project1): Brief description of Project 1
-- [**Project 2**](https://github.com/yourusername/project2): Brief description of Project 2
+- [**Project 1**](https://github.com/mankarshubham81/project1): Brief description of Project 1
+- [**Project 2**](https://github.com/mankarshubham81/project2): Brief description of Project 2
 
 ## 📊 Language Stats
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=dark)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mankarshubham81&layout=compact&theme=dark)
 
 ---
 
-⭐️ From [Your GitHub Username](https://github.com/yourusername)
+⭐️ From [mankarshubham81](https://github.com/mankarshubham81)
