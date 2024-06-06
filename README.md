@@ -57,7 +57,7 @@ I'm a passionate Software Developer with expertise in creating robust and scalab
 
 ## 📂 Noteworthy Projects
 
-- [**Project 1**](https://github.com/mankarshubham81/project1): Brief description of Project 1
+- [**Project 1**](https://github.com/AtharvaCM/nishad-pune-v2): Nishad Pune - Website for Musical Group
 - [**Project 2**](https://github.com/mankarshubham81/project2): Brief description of Project 2
 
 ## 📊 Language Stats
