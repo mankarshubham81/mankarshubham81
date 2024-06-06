@@ -25,7 +25,7 @@ I'm a passionate Software Developer with expertise in creating robust and scalab
 - ![React](https://img.shields.io/badge/-React-333?style=flat&logo=react)
 - ![Node.js](https://img.shields.io/badge/-Node.js-333?style=flat&logo=node.js)
 - ![Express](https://img.shields.io/badge/-Express-333?style=flat&logo=express)
-- ![Spring Boot](https://img.shields.io/badge/-Spring%20Boot-333?style=flat&logo=spring-boot)
+  <!--- ![Spring Boot](https://img.shields.io/badge/-Spring%20Boot-333?style=flat&logo=spring-boot) -->
 
 ### Databases
 - ![MongoDB](https://img.shields.io/badge/-MongoDB-333?style=flat&logo=mongodb)
@@ -58,7 +58,7 @@ I'm a passionate Software Developer with expertise in creating robust and scalab
 ## 📂 Noteworthy Projects
 
 - [**Project 1**](https://github.com/AtharvaCM/nishad-pune-v2): Nishad Pune - Website for Musical Group
-- [**Project 2**](https://github.com/mankarshubham81/project2): Brief description of Project 2
+- [**Project 2**](https://github.com/mankarshubham81/vocabmaster): Vocab Masters - Online Quiz Web Application
 
 ## 📊 Language Stats
 
