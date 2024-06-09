@@ -19,7 +19,7 @@ I'm a passionate Software Developer with expertise in creating robust and scalab
 - ![TypeScript](https://img.shields.io/badge/-TypeScript-333?style=flat&logo=typescript)
 - ![Python](https://img.shields.io/badge/-Python-333?style=flat&logo=python)
 - ![Java](https://img.shields.io/badge/-Java-333?style=flat&logo=java)
-- ![C#](https://img.shields.io/badge/-C%23-333?style=flat&logo=csharp)
+<!-- - ![C#](https://img.shields.io/badge/-C%23-333?style=flat&logo=csharp) -->
 
 ### Frameworks and Libraries
 - ![React](https://img.shields.io/badge/-React-333?style=flat&logo=react)
@@ -46,8 +46,11 @@ I'm a passionate Software Developer with expertise in creating robust and scalab
 
 ## 🏆 Achievements
 
-- **[Achievement 1]**: Description
-- **[Achievement 2]**: Description
+- **[Web Master Competition]**: Achieved the title of Web Master Competition winner following participation in the event
+organized by H.V. Desai College.
+- **[Coding Instructor & Event Organizer]**: Provided guidance and instruction to freshmen and second-year students
+during my work as a coding instructor through the Earn and Learn Scheme. Participated in college event organization,
+developing empathy and communication skills for effective collaboration and idea sharing.
 
 ## 🔗 Connect with Me
 
