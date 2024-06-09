@@ -632,12 +632,28 @@ Resolved numerous issues and implemented new features.</li>
 
           </div>
 
+<!--           <form
+  action="https://formspree.io/f/mnqeeqay"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here --
+  <button type="submit">Send</button>
+</form> -->
+          
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-    <form action="https://formsubmit.co/mankarshubham81@gmail.com" method="post" role="form" class="php-email-form">
+    <form action="https://formspree.io/f/mnqeeqay" method="post" role="form" class="php-email-form">
         <!-- Add a hidden field to redirect after submission -->
-        <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html">
+<!--         <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html"> -->
         <!-- Add a hidden field to prevent spam -->
-        <input type="hidden" name="_captcha" value="false">
+<!--         <input type="hidden" name="_captcha" value="false"> -->
         
         <div class="form-row">
             <div class="form-group col-md-6">
@@ -660,11 +676,6 @@ Resolved numerous issues and implemented new features.</li>
             <label for="message">Message</label>
             <textarea class="form-control" required name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
             <div class="validate"></div>
-        </div>
-        <div class="mb-3">
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your message has been sent. Thank you!</div>
         </div>
         <div class="text-center"><button type="submit">Send Message</button></div>
     </form>
