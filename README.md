@@ -54,7 +54,7 @@ developing empathy and communication skills for effective collaboration and idea
 
 ## 🔗 Connect with Me
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-333?style=flat&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/shubham-mankar)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-333?style=flat&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/mankarshubham81)
 [![Twitter](https://img.shields.io/badge/-Twitter-333?style=flat&logo=twitter&logoColor=1DA1F2)](https://twitter.com/mankarshubham81)
 [![Email](https://img.shields.io/badge/-Email-333?style=flat&logo=gmail&logoColor=EA4335)](mailto:mankarshubham81@gmail.com)
 
