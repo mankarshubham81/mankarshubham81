@@ -1150,3 +1150,26 @@ input:checked + .slider:before {
   }
 }
 /*=================Social icons ========================*/
+
+
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.skill {
+  background-color: #d9d9d9;
+  color: #333;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-size: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.skill:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
