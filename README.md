@@ -18,7 +18,6 @@ I'm a passionate Software Developer with expertise in creating robust and scalab
 - ![JavaScript](https://img.shields.io/badge/-JavaScript-333?style=flat&logo=javascript)
 - ![TypeScript](https://img.shields.io/badge/-TypeScript-333?style=flat&logo=typescript)
 - ![Python](https://img.shields.io/badge/-Python-333?style=flat&logo=python)
-- ![Java](https://img.shields.io/badge/-Java-333?style=flat&logo=java)
 <!-- - ![C#](https://img.shields.io/badge/-C%23-333?style=flat&logo=csharp) -->
 
 ### Frameworks and Libraries
@@ -61,7 +60,7 @@ developing empathy and communication skills for effective collaboration and idea
 ## 📂 Noteworthy Projects
 
 - [**Project 1**](https://github.com/AtharvaCM/nishad-pune-v2): Nishad Pune - Website for Musical Group
-- [**Project 2**](https://github.com/mankarshubham81/vocabmaster): Vocab Masters - Online Quiz Web Application
+- [**Project 2**](https://chat-super.vercel.app/): Chat Super - Private Chat room Web Application
 
 ## 📊 Language Stats
 
