@@ -64,6 +64,123 @@
 
     /* Small tweak for section titles */
     .section-title h2 { letter-spacing: .3px; }
+
+    /* Venobox gallery fixes - critical for proper display */
+.vbox-overlay {
+  z-index: 9999 !important;
+}
+
+.vbox-content {
+  max-width: 90% !important;
+  max-height: 90% !important;
+  margin: 0 auto !important;
+  position: relative !important;
+}
+
+/* Fix navigation arrow positioning */
+.vbox-btn.prev, .vbox-btn.next {
+  position: absolute !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  width: 50px !important;
+  height: 50px !important;
+  line-height: 50px !important;
+  font-size: 24px !important;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  border-radius: 50% !important;
+  color: white !important;
+  opacity: 0.8 !important;
+  transition: all 0.3s ease !important;
+  z-index: 10000 !important;
+}
+
+.vbox-btn.prev:hover, .vbox-btn.next:hover {
+  opacity: 1 !important;
+  background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.vbox-btn.prev {
+  left: 20px !important;
+}
+
+.vbox-btn.next {
+  right: 20px !important;
+}
+
+/* Close button positioning */
+.vbox-close {
+  position: absolute !important;
+  top: 20px !important;
+  right: 20px !important;
+  width: 40px !important;
+  height: 40px !important;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  border-radius: 50% !important;
+  color: white !important;
+  font-size: 20px !important;
+  opacity: 0.8 !important;
+  z-index: 10000 !important;
+}
+
+.vbox-close:hover {
+  opacity: 1 !important;
+  background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+/* Ensure images scale properly */
+.vbox-content img {
+  max-width: 100% !important;
+  max-height: 85vh !important;
+  object-fit: contain !important;
+  box-shadow: 0 5px 30px rgba(0,0,0,0.3) !important;
+}
+
+/* Caption styling */
+.vbox-title {
+  position: absolute !important;
+  bottom: 20px !important;
+  left: 0 !important;
+  right: 0 !important;
+  text-align: center !important;
+  background: rgba(0, 0, 0, 0.6) !important;
+  color: white !important;
+  padding: 10px !important;
+  margin: 0 20px !important;
+  border-radius: 4px !important;
+  font-size: 16px !important;
+  z-index: 9999 !important;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+  .vbox-btn.prev, .vbox-btn.next {
+    width: 40px !important;
+    height: 40px !important;
+    font-size: 20px !important;
+    left: 10px !important;
+    right: 10px !important;
+  }
+  
+  .vbox-close {
+    width: 35px !important;
+    height: 35px !important;
+    top: 15px !important;
+    right: 15px !important;
+  }
+}
+
+/* Fix for potential header overlap */
+.vbox-overlay {
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+}
+
+/* Ensure gallery works with your site's z-index structure */
+#header {
+  z-index: 1000 !important;
+}
   </style>
 
   <!-- JSON-LD Schema -->
@@ -265,114 +382,173 @@
     </section><!-- End Resume Section -->
 
 <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
-      <div class="container">
+<section id="portfolio" class="portfolio section-bg">
+  <div class="container">
+    <div class="section-title">
+      <h2>Portfolio</h2>
+      <p>Selected projects showcasing my work and expertise</p>
+    </div>
 
-        <div class="section-title">
-          <h2>Portfolio</h2>
-          <p><!--The sorrows of a great advantage to SCOR. Him, indeed, to the necessities of the flight of his is a result of something. Let there be consectetur veilit. Anyone whom the one with greed. And no one who arouses an impediment to rest, for the. Because this man did flee from the duties in the advantage , we relaize that this is ques . --></p>
-        </div>
-
-        <div class="row" data-aos="fade-up">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">Treak</li><!--app = treak-->
-              <li data-filter=".filter-card">My Feats</li><!--my feast = card-->
-              <li data-filter=".filter-web">It's Me</li><!--web = mywork-->
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/si1.jpg" class="img-fluid round" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/si1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
-                <!--<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/si4.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/si4.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-<!--                 <a href="https://github.com/shubhamdm81/freshfromfarm" title="More Details"><i class="bx bx-link"></i></a> -->
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/si2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/si2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-<!--                 <a href="https://github.com/shubhamdm81/freshfromfarm" title="More Details"><i class="bx bx-link"></i></a> -->
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/sitt.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/sitt.jpg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-41.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-41.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/si5.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/si5.jpg" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
-<!--                 <a href="https://github.com/shubhamdm81/freshfromfarm" title="More Details"><i class="bx bx-link"></i></a> -->
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/sit.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/sit.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="bx bx-plus"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/sig1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/sig1.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
-              </div>
-            </div>
-          </div>
-
+    <div class="row" data-aos="fade-up">
+      <div class="col-lg-12 d-flex justify-content-center">
+        <ul id="portfolio-flters">
+          <li data-filter="*" class="filter-active">All</li>
+          <li data-filter=".filter-app">Projects</li>
+          <li data-filter=".filter-card">Technical Feats</li>
+          <li data-filter=".filter-web">Personal Work</li>
+        </ul>
       </div>
-    </section><!-- End Portfolio Section -->
+    </div>
+
+    <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+      <!-- Portfolio items with improved Venobox configuration -->
+      <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+        <div class="portfolio-wrap">
+          <img src="assets/img/si1.jpg" class="img-fluid" alt="Project Screenshot" loading="lazy">
+          <div class="portfolio-links">
+            <a href="assets/img/si1.jpg" 
+               data-gall="portfolioGallery" 
+               class="venobox" 
+               title="Context Fusion Blog Platform" 
+               data-maxwidth="90%" 
+               data-maxheight="90%">
+              <i class="bx bx-plus"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+        <div class="portfolio-wrap">
+          <img src="assets/img/si4.jpg" class="img-fluid" alt="Web Development Project" loading="lazy">
+          <div class="portfolio-links">
+            <a href="assets/img/si4.jpg" 
+               data-gall="portfolioGallery" 
+               class="venobox" 
+               title="Admin Dashboard Interface" 
+               data-maxwidth="90%" 
+               data-maxheight="90%">
+              <i class="bx bx-plus"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+        <div class="portfolio-wrap">
+          <img src="assets/img/si2.jpg" class="img-fluid" alt="Web Application" loading="lazy">
+          <div class="portfolio-links">
+            <a href="assets/img/si2.jpg" 
+               data-gall="portfolioGallery" 
+               class="venobox" 
+               title="E-commerce Platform" 
+               data-maxwidth="90%" 
+               data-maxheight="90%">
+              <i class="bx bx-plus"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+        <div class="portfolio-wrap">
+          <img src="assets/img/sitt.jpg" class="img-fluid" alt="Mobile Application" loading="lazy">
+          <div class="portfolio-links">
+            <a href="assets/img/sitt.jpg" 
+               data-gall="portfolioGallery" 
+               class="venobox" 
+               title="Mobile App Interface" 
+               data-maxwidth="90%" 
+               data-maxheight="90%">
+              <i class="bx bx-plus"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+        <div class="portfolio-wrap">
+          <img src="assets/img/portfolio/portfolio-41.jpg" class="img-fluid" alt="Technical Implementation" loading="lazy">
+          <div class="portfolio-links">
+            <a href="assets/img/portfolio/portfolio-41.jpg" 
+               data-gall="portfolioGallery" 
+               class="venobox" 
+               title="Technical Architecture" 
+               data-maxwidth="90%" 
+               data-maxheight="90%">
+              <i class="bx bx-plus"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+        <div class="portfolio-wrap">
+          <img src="assets/img/si5.jpg" class="img-fluid" alt="Web Project" loading="lazy">
+          <div class="portfolio-links">
+            <a href="assets/img/si5.jpg" 
+               data-gall="portfolioGallery" 
+               class="venobox" 
+               title="API Integration" 
+               data-maxwidth="90%" 
+               data-maxheight="90%">
+              <i class="bx bx-plus"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+        <div class="portfolio-wrap">
+          <img src="assets/img/sit.jpg" class="img-fluid" alt="Application Interface" loading="lazy">
+          <div class="portfolio-links">
+            <a href="assets/img/sit.jpg" 
+               data-gall="portfolioGallery" 
+               class="venobox" 
+               title="Application Dashboard" 
+               data-maxwidth="90%" 
+               data-maxheight="90%">
+              <i class="bx bx-plus"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+        <div class="portfolio-wrap">
+          <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="Technical Diagram" loading="lazy">
+          <div class="portfolio-links">
+            <a href="assets/img/portfolio/portfolio-7.jpg" 
+               data-gall="portfolioGallery" 
+               class="venobox" 
+               title="System Design" 
+               data-maxwidth="90%" 
+               data-maxheight="90%">
+              <i class="bx bx-plus"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+        <div class="portfolio-wrap">
+          <img src="assets/img/sig1.jpg" class="img-fluid" alt="Technical Implementation" loading="lazy">
+          <div class="portfolio-links">
+            <a href="assets/img/sig1.jpg" 
+               data-gall="portfolioGallery" 
+               class="venobox" 
+               title="Security Implementation" 
+               data-maxwidth="90%" 
+               data-maxheight="90%">
+              <i class="bx bx-plus"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Portfolio Section -->
 
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials section-bg">
