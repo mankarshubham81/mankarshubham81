@@ -206,6 +206,8 @@ img.vbox-figlio{
 -moz-user-select: none;
 -o-user-select: none;
 user-select: none;
+margin-top: 50px;
+margin-left: 35px;
 }
 .vbox-content.swipe-left{
     margin-left: -200px !important;
