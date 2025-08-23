@@ -196,3 +196,53 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
 })(jQuery);
+
+
+// Initialize Venobox gallery with proper configuration
+document.addEventListener('DOMContentLoaded', function() {
+  // Initialize Venobox with optimal settings
+  if (typeof $ !== 'undefined' && $.fn.venobox) {
+    $('.venobox').venobox({
+      framewidth: '90%',
+      frameheight: '90%',
+      border: '0',
+      bgcolor: '#000',
+      numeratio: true,
+      infinigall: true,
+      share: ['facebook', 'twitter', 'linkedin'],
+      arrowsColor: '#fff',
+      closeColor: '#fff',
+      spinner: 'rotating-plane',
+      spinColor: '#fff',
+      titleattr: 'data-title',
+      numeratio: true,
+      titlePosition: 'bottom',
+      overlayClose: true,
+      navSpeed: 500,
+      closeBackground: 'rgba(0,0,0,0.5)'
+    });
+    
+    // Fix for initial positioning
+    $(window).on('resize', function() {
+      $('.venobox').venobox().update();
+    });
+  }
+  
+  // Filter portfolio items
+  $('#portfolio-flters li').on('click', function() {
+    $('#portfolio-flters li').removeClass('filter-active');
+    $(this).addClass('filter-active');
+    
+    var filterValue = $(this).attr('data-filter');
+    $('.portfolio-container').isotope({ filter: filterValue });
+  });
+  
+  // Initialize Isotope after images are loaded
+  $('.portfolio-container').imagesLoaded(function() {
+    $('.portfolio-container').isotope({
+      itemSelector: '.portfolio-item',
+      layoutMode: 'fitRows'
+    });
+  });
+});
+
